@@ -9,21 +9,17 @@
     <form action="http://www.example.com/email.php" method="GET">
       <label for="email">Email</label>
       <div>
-        <input id="email" type="text" name="email" size="15" maxlength="30" />
+        <input id="email" type="email" name="email" size="15" maxlength="30" />
       </div>
-    </form>
-    <form action="http://www.example.com/whycoding.php">
       <label>Why is coding cool?</label>
       <div>
         <select name="responses">
-          <option value="select an option">Select an option</option>
-          <option value="because it's interesting">Because it's interesting</option>
-          <option value="because it's fun">Beccause it's fun</option>
-          <option value="because it's powerful">Because it's powerful</option>
+          <option value="">Select an option</option>
+          <option value="interesting">Because it's interesting</option>
+          <option value="fun">Beccause it's fun</option>
+          <option value="powerful">Because it's powerful</option>
         </select>
       </div>
-    </form>
-    <form action="http://www.example.com/favlanguage.php">
       <label>Favorite Language (choose one)</label>
       <div>
         <input id="html" type="radio" name="language" value="HTML"/>
@@ -33,21 +29,15 @@
         <input id="javascript" type="radio" name="language" value="JavaScript"/>
         <label for="javascript">JavaScript</label>
       </div>
-    </form>
-    <form action="http://www.example.com/signup.php">
       <label>Would you like to sign up for more information?</label>
       <div>
-        <input id="signup" type="checkbox" name="sign up" value="sign me up"/>
+        <input id="signUp" type="checkbox" name="sign up" value="sign me up"/>
         <label for="signup">Sign me up!</label>
       </div>
-    </form>
-    <form action="http://www.example.com/index.html">
       <label>Comments</label>
       <div>
         <textarea name="comments" cols="30" rows="10"></textarea>
       </div>
-    </form>
-    <form action="http://www.example.com/submit.php">
       <input type="submit" value="Submit"/>
     </form>
   </body>
