@@ -1,0 +1,42 @@
+* {
+  font-family: 'Brandon Grotesque', monospace;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 15px;
+  color: rgb(218, 76, 20);
+  font-weight: 500;
+  padding-left: 140px;
+}
+
+.box {
+  width: 340px;
+  border-color: rgb(212, 204, 204);
+  border-style: solid;
+  border-radius: 7px;
+  margin-bottom: 4px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+form {
+  padding-left: 30px;
+}
+
+.heading {
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.submit {
+  background-color: rgb(218, 76, 20);
+  color: white;
+  border-radius: 20px;
+  border: white;
+  padding: 6px 15px;
+  margin-left: 262px;
+  margin-top: 4px;
+}
