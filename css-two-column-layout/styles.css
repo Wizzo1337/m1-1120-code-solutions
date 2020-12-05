@@ -32,7 +32,6 @@ img {
 }
 
 .column-block {
-  flex-direction: column;
   width: 30%;
 }
 
