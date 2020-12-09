@@ -1,0 +1,279 @@
+html {
+  font-family: 'Avenir', serif;
+}
+
+.blue-logo {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.divider {
+  border-bottom: 1px solid rgb(202, 202, 216);
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.column-nav-first-half {
+  width: 100%;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column-nav-second-half {
+  width: 100%;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column-full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li.horizontal {
+  display: inline;
+  font-size: 12px;
+}
+
+li a.grey {
+  padding: 5px 10px;
+  color: rgb(172, 172, 189);
+}
+
+.contact-us {
+  background-color: rgba(24, 43, 104, 0.931);
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 5px 9px;
+  display: inline;
+}
+
+.get-started {
+  position: relative;
+  background-color: rgba(24, 43, 104, 0.931);
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px 20px;
+}
+
+.heading {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  color: white;
+  font-size: 2em;
+  width: 50%;
+  font-family: 'Tiempos Headline', serif;
+}
+
+.description {
+  position: absolute;
+  left: 5%;
+  color: rgb(255, 255, 255);
+  width: 45%;
+  bottom: 28%;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.poster {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.poster > img {
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(93, 89, 89, 0.472);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button.get-started {
+  position: absolute;
+  bottom: 40px;
+  left: 5%;
+}
+
+.column-full-light-grey {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background: rgb(245, 243, 243);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.clinician-title {
+  font-size: 1.5em;
+  font-family: 'Tiempos Headline', serif;
+  color: rgb(98, 98, 100);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.clinician-info {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  color: rgb(98, 98, 100);
+  font-size: 0.8em;
+}
+
+.column-half-light-grey {
+  background: rgb(245, 243, 243);
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  line-height: 2.5;
+  color: rgb(98, 98, 100);
+}
+
+.get-started-bottom {
+  position: relative;
+  top: 10px;
+  right: 20px;
+  background-color: rgba(24, 43, 104, 0.931);
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 10px 20px;
+}
+
+.column-first-half {
+  width: 50%;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.column-second-half {
+  width: 50%;
+  height: 100px;
+  text-align: right;
+  margin-top: 35px;
+}
+
+.ready-title {
+  font-size: 1.5em;
+  font-family: 'Tiempos Headline', serif;
+  line-height: 2;
+  color: rgb(98, 98, 100);
+}
+
+.schedule {
+  font-size: 0.8em;
+  color: rgb(98, 98, 100);
+}
+
+.column-third-dark-grey {
+  background: rgb(110, 109, 109);
+  width: 100%;
+  height: 380px;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.align {
+  text-align: left;
+}
+
+.align-indent {
+  text-align: left;
+  margin-left: 10px;
+}
+
+li a.white {
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+}
+
+.address {
+  font-size: 0.7em;
+  line-height: 1.4;
+  position: relative;
+  right: 12%;
+}
+
+.white-logo {
+  width: 100px;
+  margin-top: 5px;
+  position: relative;
+  bottom: 20%;
+  left: 15%;
+}
+
+.company {
+  position: relative;
+  left: 70%;
+  bottom: 10%;
+}
+
+.product {
+  position: relative;
+  left: 30%;
+}
+
+.column-full-footer {
+  width: 100%;
+  display: flex;
+  height: 60px;
+}
+
+.footer {
+  position: relative;
+  left: 4%;
+  top: 50%;
+}
+
+li a.dark-grey {
+  padding: 5px 10px;
+  color: rgb(110, 109, 109);
+  font-size: 1.2em;
+}
