@@ -58,8 +58,8 @@ function doubleAll(numbers) {
 
 function getKeys(object) {
   var keys = [];
-  for (object.property in object) {
-    keys.push(object.property);
+  for (var i in object) {
+    keys.push(i);
   }
   return keys;
 }
