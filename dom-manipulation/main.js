@@ -4,19 +4,9 @@ var hotButton = document.querySelector('.hot-button');
 
 var clickCount = document.querySelector('.click-count');
 
-function handleClick(event) {
-  numberOfClicks++;
-}
-
-hotButton.addEventListener('click', handleClick);
-
-function handleUpdateText(event) {
-  clickCount.textContent = 'Clicks: ' + numberOfClicks;
-}
-
-hotButton.addEventListener('click', handleUpdateText);
-
 function handleUpdateButton(event) {
+  numberOfClicks++;
+  clickCount.textContent = 'Clicks: ' + numberOfClicks;
   if (numberOfClicks < 4) {
     hotButton.className = 'hot-button cold';
   } else if (numberOfClicks < 7 && numberOfClicks >= 4) {
