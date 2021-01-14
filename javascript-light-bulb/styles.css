@@ -1,0 +1,40 @@
+.circleDark {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(51, 51, 47);
+  border-radius: 50%;
+  margin-top: 35%;
+  box-shadow: 0 -20px 4px;
+}
+
+.circleLight {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 238, 0);
+  border-radius: 50%;
+  margin-top: 35%;
+  box-shadow: 0 0 15px rgb(255, 238, 0);
+}
+
+body {
+  background-color: rgb(237, 238, 204);
+}
+
+.bckgrdLight {
+  background-color: rgb(237, 238, 204);
+}
+
+.bckgrdDark {
+  background-color: rgb(20, 20, 19);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1em auto 1em;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
