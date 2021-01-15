@@ -1,0 +1,42 @@
+.openModal {
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: rgb(93, 66, 212);
+  color: white;
+  font-size: 30px;
+}
+
+.no {
+  border-radius: 10px;
+  padding: 5px 30px;
+  background-color: rgb(228, 82, 25);
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.popUp {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.popUpContent {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 10%;
+}
